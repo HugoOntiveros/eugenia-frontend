@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pacifico&display=swap');
+*{
+  font-family: 'Noto Serif', serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2{
+  color:#ffd600;
+  font-family: 'Pacifico', cursive !important;
+  font-size: 30px;
+}
+
+.Cart{
+  padding: 200px;
+}
+
+.producto{
+  border: 2px solid #6d2b70;
+  margin: 12px  10px;
+  padding: 7px 5px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ align-items: center;
+}
+
+.productoPopular{
+  border: 2px solid #6d2b70;
+  margin: 12px  10px;
+  padding: 7px 5px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ align-items: center;
+}
+
+.bg-purple{
+  background-color: #6d2b70;
 }
