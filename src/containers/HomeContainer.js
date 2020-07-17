@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'reactstrap'
+import { Container } from 'reactstrap';
 import pastel from '../assets/PASTEL_INICIO.png';
 import './HomeContainer.css';
 
